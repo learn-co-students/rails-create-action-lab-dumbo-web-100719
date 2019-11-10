@@ -1,1 +1,7 @@
 <!-- Create your form here -->
+<%= form_tag @student , method: "post" %>
+  Student Form
+  <%= text_field_tag :first_name %><br>
+  Student Form
+  <%= text_field_tag :last_name %>
+  <%= submit_tag "Submit Student" %>
